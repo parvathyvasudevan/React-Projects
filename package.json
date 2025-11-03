@@ -1,5 +1,6 @@
 {
   "name": "react",
+  "homepage": "https://parvathyvasudevan.github.io/React-Projects/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,12 +9,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-   "homepage": "https://parvathyvasudevan.github.io/React-Projects/",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist"
-
-
+    "deploy": "gh-pages -d dist"
   },
+  
+
   "dependencies": {
     "gh-pages": "^6.3.0",
     "lucide-react": "^0.546.0",
